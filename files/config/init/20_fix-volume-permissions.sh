@@ -1,3 +1,3 @@
 #!/bin/bash
 
-chown -R collabnet:collabnet /opt/csvn/data
+chown -R collabnet /opt/csvn/data

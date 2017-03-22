@@ -1,5 +1,5 @@
 version: "3.0"
 services:
     svn:
-        container_name: lrkwz/subversion-edge
+        container_name: subversion-edge
         build: .

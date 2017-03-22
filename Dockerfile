@@ -31,4 +31,6 @@ VOLUME /opt/csvn/data
 
 WORKDIR /opt/csvn
 
+RUN apk add supervisor
+
 ENTRYPOINT ["/config/bootstrap.sh"]
