@@ -32,5 +32,6 @@ VOLUME /opt/csvn/data
 WORKDIR /opt/csvn
 
 RUN apk add supervisor
+RUN apk add libc6-compat && ln -s /lib /lib64
 
 ENTRYPOINT ["/config/bootstrap.sh"]
