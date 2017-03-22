@@ -1,0 +1,9 @@
+version: "3.0"
+services:
+    svn:
+        container_name: subversion-edge
+        build: .
+        ports:
+        - "18080:18080"
+        - "3343:3343"
+        - "4434:4434"
